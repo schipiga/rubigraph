@@ -5,4 +5,6 @@ VALUE cIGraph;
 
 void Init_igraph();
 
-VALUE m_shortest_path(VALUE self, VALUE from, VALUE to, VALUE matrix, VALUE weights, VALUE mode);
+VALUE m_shortest_path(VALUE self);
+
+VALUE m_new(VALUE self);
